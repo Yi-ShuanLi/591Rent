@@ -64,7 +64,7 @@ namespace _591租屋
             new RentalListing
             {
                 LocationCity = "台北市", LocationDistrict = "士林區", Type = "整層住家", Rent = 32000, Rooms = 4, Bathrooms = 2,
-                IsNearMRT = true, IsNewlyListed = false, AllowsPets = false, ShortTermRent = false,
+                IsNearMRT = false, IsNewlyListed = false, AllowsPets = false, ShortTermRent = false,
                 BuildingType = "透天厝", SizePing = 35.0, Floor = 1, TotalFloors = 3,
                 HasAC = true, HasWasher = true, HasFridge = true, HasWaterHeater = true,
                 HasGas = true, HasInternet = true, HasBed = false, HasParking = true, HasElevator = false, HasBalcony = true
@@ -115,7 +115,7 @@ namespace _591租屋
                 IsNearMRT = true, IsNewlyListed = false, AllowsPets = false, ShortTermRent = false,
                 BuildingType = "電梯大樓", SizePing = 32.0, Floor = 7, TotalFloors = 12,
                 HasAC = true, HasWasher = true, HasFridge = true, HasWaterHeater = true,
-                HasGas = true, HasInternet = true, HasBed = false, HasParking = true, HasElevator = true, HasBalcony = true
+                HasGas = true, HasInternet = true, HasBed = false, HasParking = false, HasElevator = true, HasBalcony = true
             },
             new RentalListing
             {
@@ -160,7 +160,7 @@ namespace _591租屋
             new RentalListing
             {
                 LocationCity = "台北市", LocationDistrict = "士林區", Type = "雅房", Rent = 5200, Rooms = 1, Bathrooms = 0,
-                IsNearMRT = true, IsNewlyListed = true, AllowsPets = false, ShortTermRent = true,
+                IsNearMRT = false, IsNewlyListed = true, AllowsPets = false, ShortTermRent = true,
                 BuildingType = "公寓", SizePing = 4.2, Floor = 2, TotalFloors = 4,
                 HasAC = true, HasWasher = false, HasFridge = false, HasWaterHeater = true,
                 HasGas = true, HasInternet = true, HasBed = true, HasParking = false, HasElevator = false, HasBalcony = false
